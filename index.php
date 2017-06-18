@@ -5,7 +5,7 @@
 </head>
 <body>
 	<p>Name: Jonathan Gawrych</p>
-	<p>AMI ID: </p>
+	<p>AMI ID: ami-d783a5b2</p>
 	<p>User Data Script:</p>
 	<pre><?php readfile("InstallLAMP.sh"); ?></pre>
 </body>
