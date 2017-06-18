@@ -7,6 +7,6 @@
 	<p>Name: Jonathan Gawrych</p>
 	<p>AMI ID: </p>
 	<p>User Data Script:</p>
-	<pre><?php echo readfile("InstallLAMP.sh"); ?></pre>
+	<pre><?php readfile("InstallLAMP.sh"); ?></pre>
 </body>
 </html>
