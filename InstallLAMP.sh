@@ -10,3 +10,5 @@ chmod 2775 /var/www
 find /var/www -type d -exec chmod 2775 {} +
 find /var/www -type f -exec chmod 0664 {} +
 #echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+cp "${0}" /var/www/html/
+wget https://raw.githubusercontent.com/JonathanGawrych/DistributedSystems/master/index.php -P /var/www/html/
